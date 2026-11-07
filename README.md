@@ -19,8 +19,6 @@
 - AI search and coding tools in 2026, including what happened to Grepper and Phind, and how to use GitHub Copilot responsibly;
 - giving an AI assistant context first with custom instructions and memory (ChatGPT, Claude and Copilot), checking its data and training settings, and tools for reading an unfamiliar repository.
 
-It started as a set of community notes written in 2022 and 2023, and has been updated and checked against official documentation in November 2026.
-
 ## ⚠️ Important Notes
 * **Never paste passwords, API keys, tokens or private data** into a public issue, a forum post, a chat server or an AI tool. Once it's posted, assume it's been copied.
 * **Every community has its own rules.** Read them before you post. Breaking them is the fastest way to get your question removed.
@@ -41,8 +39,6 @@ This guide works alongside these others:
 ---
 
 <!-- guide:start -->
-
-*Commands and features were checked against GitHub Docs, the GitHub CLI manual, Git's documentation, each community's own pages and each AI tool's help pages in November 2026. Each video's summary was also rechecked against what the video actually says.*
 
 Throughout, replace:
 
@@ -95,7 +91,7 @@ Each of these takes a slightly different angle. Watch one or two before you star
 | [Complete Guide to Open Source - How to Contribute](https://www.youtube.com/watch?v=yzeVMecydCE) | freeCodeCamp.org (taught by Eddie Jaoude) | A 42-minute course: a tour of GitHub, finding projects, writing good issues and pull requests in Markdown, and maintaining your own projects |
 | [How to contribute to open source](https://www.youtube.com/watch?v=2L0sxPx4C18) | strager | A real contribution, start to finish: fixing a bug in the GDB debugger and sending the fix by email, in about 45 minutes |
 
-The rest of this guide turns their advice into steps, checked against GitHub's own documentation.
+The rest of this guide turns their advice into steps.
 
 **Jump to, in the freeCodeCamp course:** [why open source matters](https://youtu.be/yzeVMecydCE?t=61) · [a tour of a GitHub repository](https://youtu.be/yzeVMecydCE?t=304) · [issues](https://youtu.be/yzeVMecydCE?t=544) · [a pull request from the GitHub website](https://youtu.be/yzeVMecydCE?t=667) · [finding projects](https://youtu.be/yzeVMecydCE?t=1031) · [Markdown for issues and pull requests](https://youtu.be/yzeVMecydCE?t=1195) · [small and draft pull requests](https://youtu.be/yzeVMecydCE?t=1638) · [GitHub Sponsors](https://youtu.be/yzeVMecydCE?t=1698) · [what he looks for when hiring](https://youtu.be/yzeVMecydCE?t=1880) · [maintaining your own project](https://youtu.be/yzeVMecydCE?t=2060) · [your GitHub profile](https://youtu.be/yzeVMecydCE?t=2364)
 
@@ -342,7 +338,7 @@ This works on every site above. It follows Stack Overflow's [How do I ask a good
 > **Watch for the XY problem.** Ask about the problem you're actually trying to solve, not only the workaround you're stuck on. See [xyproblem.info](https://xyproblem.info/).
 
 ## 10. Search and AI Coding Tools
-The original notes recommended two search tools from 2022 and 2023. Both have changed:
+Older tutorials often recommend two search tools from 2022 and 2023. Both have changed:
 
 | Tool | What it was | Status in November 2026 |
 |---|---|---|
@@ -363,7 +359,7 @@ The original notes recommended two search tools from 2022 and 2023. Both have ch
 * **Copilot Pro:** $10 a month. Verified teachers and maintainers of popular open source projects may get it free.
 * **Pro+ and Max:** higher tiers with more usage and more models.
 
-**What happened to Copilot Labs?** The original notes linked GitHub's short [How to translate code into other languages: GitHub Copilot Labs](https://www.youtube.com/shorts/RBj3BKm54BY). Copilot Labs was an experimental extension from 2022, and it was retired at the end of 2023 when its features moved into Copilot Chat. To translate code between languages now, select it and ask Chat, for example "Rewrite this function in Python." Then check the result as carefully as you'd check your own code.
+**What happened to Copilot Labs?** GitHub's short [How to translate code into other languages: GitHub Copilot Labs](https://www.youtube.com/shorts/RBj3BKm54BY) shows a tool you can't get any more. Copilot Labs was an experimental extension from 2022, and it was retired at the end of 2023 when its features moved into Copilot Chat. To translate code between languages now, select it and ask Chat, for example "Rewrite this function in Python." Then check the result as carefully as you'd check your own code.
 
 ### Give the assistant context first
 An AI assistant only knows what you tell it. Ikaneisha Jenkins makes this the first step in [The First Thing You Should Do Before Using ChatGPT for Business](https://www.youtube.com/watch?v=7-M9x9YiAqM). Her point is that most people don't need better prompts, they need to give the tool better context. Her method, shown in ChatGPT for a pretend bakery:
@@ -383,7 +379,7 @@ Say when you're not sure, and link the official documentation where you can.
 Before suggesting a package, tell me how to check it's the real one.
 ```
 
-Each tool has two related features. **Instructions** are what you write yourself, and they apply to every chat. **Memory** is what the tool learns from your chats over time. Settings were checked in November 2026, and menus move, so look for the same names if yours differ:
+Each tool has two related features. **Instructions** are what you write yourself, and they apply to every chat. **Memory** is what the tool learns from your chats over time. Menus move, so look for the same names if yours differ:
 
 | Tool | Your instructions | Memory |
 |---|---|---|
@@ -394,7 +390,7 @@ Each tool has two related features. **Instructions** are what you write yourself
 Keep instructions short and about how you work, not private details. A `.github/copilot-instructions.md` file is part of the repository, so on a public project everyone can read it. Check your memory now and then, because it can be wrong or out of date, and see **Check your data controls** (Section 11) before you share anything sensitive.
 
 ### Read an unfamiliar repository faster
-Opening a big project for the first time is hard. AriaCodez shared these shortcuts in a short Facebook video, which demonstrates GitDiagram, Gitingest and the full-stop key; the original notes also listed DeepWiki and GitMCP from the same post. Each was checked against its own documentation.
+Opening a big project for the first time is hard. AriaCodez shared these shortcuts in a short Facebook video, which demonstrates GitDiagram, Gitingest and the full-stop key, and the same post also lists DeepWiki and GitMCP.
 
 **On GitHub itself:** press **`.`** (full stop) on any repository or pull request page to open it in **github.dev**, a free VS Code editor that runs in your browser. Press **`>`** to open it in a new tab instead, or change `github.com` to `github.dev` in the address. You need to be signed in. It's for reading, searching and small edits: there's no terminal, and you can't run the code. You can install extensions, but only those built to run on the web appear.
 
@@ -525,7 +521,7 @@ What you type into an AI tool is stored, can be reviewed for safety, and on some
 * Learn Fast Make Things, [Contributing to Open Source Can Change Your Life - Here's How to Do It](https://www.youtube.com/watch?v=CML6vfKjQss)
 * GitHub, [How to translate code into other languages: GitHub Copilot Labs](https://www.youtube.com/shorts/RBj3BKm54BY)
 * Ikaneisha Jenkins, [The First Thing You Should Do Before Using ChatGPT for Business](https://www.youtube.com/watch?v=7-M9x9YiAqM)
-* AriaCodez, a short video on GitHub repository shortcuts (credited by name only; it's on Facebook, which needs a login)
+* AriaCodez, a short Facebook video on GitHub repository shortcuts
 
 <!-- guide:end -->
 
