@@ -3,7 +3,6 @@
 ![Level: Beginner](https://img.shields.io/badge/Level-Beginner-2ea44f)
 ![Covers: Open source, communities, AI tools](https://img.shields.io/badge/Covers-Open%20Source%20%7C%20Communities%20%7C%20AI%20Tools-1f6feb)
 ![Tools: Git, GitHub, gh](https://img.shields.io/badge/Tools-Git%20%7C%20GitHub%20%7C%20gh-181717?logo=github&logoColor=white)
-![Checked November 2026](https://img.shields.io/badge/Checked-Nov%202026-2ea44f)
 [![Last updated](https://img.shields.io/github/last-commit/ImmuneMoon/Open-Source-and-Developer-Communities?label=updated)](https://github.com/ImmuneMoon/Open-Source-and-Developer-Communities/commits/main)
 [![License: CC BY 4.0](https://img.shields.io/badge/License-CC%20BY%204.0-lightgrey)](LICENSE)
 
